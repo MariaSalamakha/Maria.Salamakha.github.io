@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+}
+h1 {
+    color: #47A2A0;
+    font-size: 40px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+.main {
+    display: flex;
+    justify-content:space-around;
+    padding: 5px;
+    margin: 1px;
+}
+.imageBtn {
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.plusMinus {
+    align-self: center;
+    border: none;
+    background-color:  RGB(179, 208 , 216);
+    border-radius: 120px;
+    height: 37px;
+}
+.plusMinus:hover {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+h3 {
+    font-size: 12px;
+    color: #47A2A0;
+    font-family: "Audiowide", sans-serif;
+}
+.four {
+    font-size: 18px;
+}
+.btnStartStop {
+    background: #414d0b;
+    background: -webkit-linear-gradient(to right,#8360c3,#2ebf91);
+    background: linear-gradient(to right,#8360c3,#2ebf91);
+    font-size: 18px;
+    padding: 12px 27px 12px 27px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: none;
+}
