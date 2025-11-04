@@ -6,6 +6,10 @@ h1 {
     font-size: 40px;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
+    opacity: 0;
+}
+#logo {
+    opacity: 0;
 }
 .header {
     display: flex;
@@ -55,3 +59,4 @@ h3 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     border: none;
 }
+
