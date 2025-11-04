@@ -222,3 +222,7 @@ startBtn.addEventListener("click", startTimer);
 stopBtn.addEventListener("click", stopTimer);
 
 calculateTime();
+
+gsap.to ("#logo", {opacity:1, delay: .7, duration: 2, x: 2, ease: "bounce"})
+gsap.to ("h1", {opacity:1, delay: 2.9, duration: 2, x: 2, ease: "bounce"})
+
