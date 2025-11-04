@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://db.onlinewebfonts.com/c/c4d8819fda4c3fd79e36cedcc8d422bb?family=Halyard+Display" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img id="logo" src="favicon.png" alt="logo">
+        <h1>Timer</h1>
+    </div>
+    
+    <div class="main"><h3>Prepare</h3></div>
+
+    <div class="main">
+        <button id="deductPrepare" class="plusMinus"><img class="imageBtn" src="icons8-minus-24.png" alt="minus"></button>
+        <h3 id="prepareTimer">0</h3>
+        <button id="addPrepare" class="plusMinus"><img class="imageBtn" src="icons8-plus-24.png" alt="plus"></button>
+    </div>
+    
+    <div class="main"><h3>Work</h3></div>
+
+    <div class="main">
+        <button id="deductWork" class="plusMinus"><img class="imageBtn" src="icons8-minus-24.png" alt="minus"></button>
+        <h3 id="workTimer">0</h3>
+        <button id="addWork" class="plusMinus"><img class="imageBtn" src="icons8-plus-24.png" alt="plus"></button>
+    </div>
+
+    <div class="main"><h3>Rest</h3></div>
+
+    <div class="main">
+        <button id="deductWorkRest" class="plusMinus"><img class="imageBtn" src="icons8-minus-24.png" alt="minus"></button>
+        <h3 id="restTimer">0</h3>
+        <button id="addWorkRest" class="plusMinus"><img class="imageBtn" src="icons8-plus-24.png" alt="plus"></button>
+    </div>
+
+    <div class="main"><h3>Set</h3></div>
+
+    <div class="main">
+        <button id="deductWorkSet" class="plusMinus"><img class="imageBtn" src="icons8-minus-24.png" alt="minus"></button>
+        <h3 id="setTimer">0</h3>
+        <button id="addWorkSet" class="plusMinus"><img class="imageBtn" src="icons8-plus-24.png" alt="plus"></button>
+    </div>
+    
+    <div class="main"><h3 id="showTotalTime">Total time</h3></div>
+
+    <div class="main"><h3 id="minutesSeconds" class="four">Ready?</h3></div>
+
+    <div class="main"><h3 id="status" class="four">Go!</h3></div>
+
+    <div class="main"><h3 id="roundDisplay">Round: 0</h3></div>
+
+    <div class="main startStopBtn">
+        <button id="startBtn" class="btnStartStop">Start</button>
+        <button id="stopBtn" class="btnStartStop">Stop</button>
+    </div>
+
+    <audio id="ring" src="beep.mp3" preload="auto"></audio>
+    <audio id="bigRing" src="claps.mp3" preload="auto"></audio>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
